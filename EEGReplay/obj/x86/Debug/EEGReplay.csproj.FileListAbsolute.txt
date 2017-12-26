@@ -1,0 +1,272 @@
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.exe
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.exe
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\工程代码备份\上位机软件\重构\EEGReplay - 20170602-2\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+F:\工程代码备份\上位机软件\重构\EEGReplay - 20170602-2\EEGReplay\obj\x86\Debug\EEGReplay.exe
+F:\工程代码备份\上位机软件\重构\EEGReplay - 20170602-2\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.exe
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.exe
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+E:\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170605-1\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170616\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170619\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170620\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170621\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\snyssss\Desktop\EEGRePlay - 20170623\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\snyssss\EEGRePlay - 20170625\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\snyssss\Desktop\EEGRePlay - 20170626\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.exe
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.exe
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+F:\工程代码备份\上位机软件\重构临时\EEGReplay - 副本\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+F:\妞诺科技\工程备份\上位机软件-重构\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.CoreCompileInputs.cache
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.exe
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.view.FormInput.resources
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EDF.dll
+C:\Users\Neuro\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EDF.pdb
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe.config
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.exe
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EEGReplay.pdb
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EDF.dll
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.dll
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Core.Interops.dll
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\Vlc.DotNet.Forms.dll
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\EDF.pdb
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormMain.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.Properties.Resources.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormCalibrate.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormFilterConfig.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.view.FormInput.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadConfig.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormLeadDiagram.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormVideo.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.NeuroScrollBar.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.GenerateResource.Cache
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.csproj.CoreCompileInputs.cache
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.exe
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.pdb
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\MWArray.dll
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\ManagedCPPAPI.netmodule
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormGonglvpu.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormProgress.resources
+D:\Desktop\EEGReplay\EEGReplay\obj\x86\Debug\EEGReplay.FormDixingtu.resources
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\eloc18.txt
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\eloc19.txt
+D:\Desktop\EEGReplay\EEGReplay\bin\x86\Debug\eloc20.txt

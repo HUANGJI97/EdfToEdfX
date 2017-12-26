@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13F1148B-A056-461F-B1CF-AE4F4120AA2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EEGReplay</RootNamespace>
+    <AssemblyName>EEGReplay</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>resources\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiXingTu, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\DiXingTu.dll</HintPath>
+    </Reference>
+    <Reference Include="gonglvpu, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\gonglvpu.dll</HintPath>
+    </Reference>
+    <Reference Include="MWArray, Version=2.9.1.0, Culture=neutral, PublicKeyToken=e1d84a0da19db86f, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_32\MWArray\2.9.1.0__e1d84a0da19db86f\MWArray.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="testPburgPrj, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\testPburgPrj.dll</HintPath>
+    </Reference>
+    <Reference Include="Vlc.DotNet.Core, Version=2.1.134.0, Culture=neutral, PublicKeyToken=84529da31f4eb963, processorArchitecture=x86">
+      <HintPath>..\packages\Vlc.DotNet.Core.2.1.134\lib\net45\x86\Vlc.DotNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Vlc.DotNet.Core.Interops, Version=2.1.134.0, Culture=neutral, PublicKeyToken=84529da31f4eb963, processorArchitecture=x86">
+      <HintPath>..\packages\Vlc.DotNet.Core.Interops.2.1.134\lib\net45\x86\Vlc.DotNet.Core.Interops.dll</HintPath>
+    </Reference>
+    <Reference Include="Vlc.DotNet.Forms, Version=2.1.134.0, Culture=neutral, PublicKeyToken=84529da31f4eb963, processorArchitecture=x86">
+      <HintPath>..\packages\Vlc.DotNet.Forms.2.1.134\lib\net45\x86\Vlc.DotNet.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\ReplayController.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\GLPThreadRunParams.cs" />
+    <Compile Include="model\edf\EDFDataRecord.cs" />
+    <Compile Include="model\edf\EDFFile.cs" />
+    <Compile Include="model\edf\EDFFileSave.cs" />
+    <Compile Include="model\edf\EDFHeader.cs" />
+    <Compile Include="model\edf\EDFLocalPatientIdentification.cs" />
+    <Compile Include="model\edf\EDFLocalRecordingIdentification.cs" />
+    <Compile Include="model\edf\EDFSignal.cs" />
+    <Compile Include="model\EEGLibrary\EDF\EDFConstants.cs" />
+    <Compile Include="model\EEGLibrary\EDF\EDFFileBase.cs" />
+    <Compile Include="model\Mark.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tool\FirFilter.cs" />
+    <Compile Include="tool\IniFile.cs" />
+    <Compile Include="tool\Tool.cs" />
+    <Compile Include="view\FormCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormCalibrate.Designer.cs">
+      <DependentUpon>FormCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormDixingtu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormDixingtu.designer.cs">
+      <DependentUpon>FormDixingtu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormFilterConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormFilterConfig.Designer.cs">
+      <DependentUpon>FormFilterConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormGonglvpu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormGonglvpu.designer.cs">
+      <DependentUpon>FormGonglvpu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormInput.Designer.cs">
+      <DependentUpon>FormInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormLeadConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormLeadConfig.Designer.cs">
+      <DependentUpon>FormLeadConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormLeadDiagram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormLeadDiagram.Designer.cs">
+      <DependentUpon>FormLeadDiagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormProgress.designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormVideo.Designer.cs">
+      <DependentUpon>FormVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\myControl\MyToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="view\myControl\NeuroScrollBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\myControl\NeuroScrollBar.Designer.cs">
+      <DependentUpon>NeuroScrollBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="view\FormCalibrate.resx">
+      <DependentUpon>FormCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormDixingtu.resx">
+      <DependentUpon>FormDixingtu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormFilterConfig.resx">
+      <DependentUpon>FormFilterConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormGonglvpu.resx">
+      <DependentUpon>FormGonglvpu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormInput.resx">
+      <DependentUpon>FormInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormLeadConfig.resx">
+      <DependentUpon>FormLeadConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormLeadDiagram.resx">
+      <DependentUpon>FormLeadDiagram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormVideo.resx">
+      <DependentUpon>FormVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\myControl\NeuroScrollBar.resx">
+      <DependentUpon>NeuroScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="eloc18.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="eloc19.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="eloc20.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\微信图片_20171116144036.png" />
+    <None Include="resources\leadPicture.png" />
+    <Content Include="resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDF\NeuroEDF.csproj">
+      <Project>{2ef8769b-2f24-4c46-a23b-fdda69c52b14}</Project>
+      <Name>NeuroEDF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

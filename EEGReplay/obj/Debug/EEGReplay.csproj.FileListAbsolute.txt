@@ -1,0 +1,9 @@
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\Debug\EEGReplay.exe.config
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\Debug\EEGReplay.exe
+F:\workspace_vs2013\EEGReplay\EEGReplay\bin\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.Properties.Resources.resources
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.GenerateResource.Cache
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.exe
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.pdb
+F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormMain.resources
