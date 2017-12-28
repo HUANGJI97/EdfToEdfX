@@ -603,7 +603,7 @@ namespace EEGReplay
         /// <param name="filePath">edf/edfx文件路径</param>
         public void initReplayFile(String filePath)
         {
-            var sw = Stopwatch.StartNew();
+            var sw = Stopwatch.StartNew();//运行时间测量对象
 
             /*
             TEDF.ReadFile(filePath);
@@ -612,19 +612,18 @@ namespace EEGReplay
             Console.WriteLine(sw.ElapsedMilliseconds);
             */
 
-            sw.Restart();
+            sw.Restart(); //停止时间间隔测量，将运行时间重置为零，然后开始测量运行时间。
 
-            this._replayFile = null;
-            this._replayFile = new EDFFile();
-            this._replayFile.readFile(filePath);
+            this._replayFile = null;    //初始化 播放文件
+            this._replayFile = new EDFFile();   //实例化 播放文件
+            this._replayFile.readFile(filePath);//读取EDF 文件 
 
-            Console.WriteLine(sw.ElapsedMilliseconds);
+            Console.WriteLine("SW输出"+sw.ElapsedMilliseconds);
 
-            this.edfCompatible(this._replayFile);
-            this.calcAVG(this._replayFile);
+            this.edfCompatible(this._replayFile);//EDF兼容
+            this.calcAVG(this._replayFile);//计算AVG
 
-            if (this._replayFile == null)
-            {
+            if (this._replayFile == null) {
                 throw new Exception("initReplayFile Exception: replayFile is null");
             }
 

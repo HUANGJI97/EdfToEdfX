@@ -118,6 +118,7 @@
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="controller\GLPThreadRunParams.cs" />
+    <Compile Include="model\edf\MyEDF.cs" />
     <Compile Include="model\edf\EDFDataRecord.cs" />
     <Compile Include="model\edf\EDFFile.cs" />
     <Compile Include="model\edf\EDFFileSave.cs" />

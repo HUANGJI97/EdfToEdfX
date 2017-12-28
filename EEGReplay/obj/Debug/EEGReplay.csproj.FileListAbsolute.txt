@@ -7,3 +7,20 @@ F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.GenerateResou
 F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.exe
 F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.pdb
 F:\workspace_vs2013\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormMain.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormMain.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormDixingtu.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormGonglvpu.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.view.FormInput.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormProgress.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormVideo.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.CoreCompileInputs.cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.exe
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.pdb

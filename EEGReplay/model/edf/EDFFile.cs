@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Diagnostics;
 using System.Collections;
 using EEGReplay;
 
@@ -28,8 +29,8 @@ namespace EDF
 
         #region 20170613 常量
 
-        private static int HEADER_LENGTH = 256;
-        private static int SIGNAL_LENGTH = 256;
+        private static int HEADER_LENGTH = 256;//头长度
+        private static int SIGNAL_LENGTH = 256;//信号长度
 
         #endregion 20170613 常量
 
@@ -180,7 +181,7 @@ namespace EDF
 
         #endregion 旧方法
 
-        /// <summary>
+            /// <summary>
         /// 解析文件
         /// </summary>
         /// <param name="file_path">文件路径</param>
@@ -200,8 +201,10 @@ namespace EDF
                 parseSignals(fs, encoding);
 
                 // 解析文件内容
+             
                 if (isOnlyReadHeader.Equals(false))
                 {
+                    
                     using (StreamReader sr = new StreamReader(fs, encoding))
                     {
                         if (this.isEDFXFile())
@@ -304,11 +307,22 @@ namespace EDF
         {
             // 读取文件头
             var buffer = new byte[HEADER_LENGTH];
+     
 
             fs.Read(buffer, 0, buffer.Length);
+            String str="";
+            int i = 0;
+            foreach (byte b in buffer) {
+                i++;
+                str += b.ToString()+"  ";
+                if (i % 16 == 0) str += "\n";
+                
+            }
+            Debug.WriteLine(str);
 
             // 解析文件头
             this._header = new EDFHeader(buffer, encoding);
+        
         }
 
         /// <summary>
@@ -318,16 +332,34 @@ namespace EDF
         {
             // 读取导联列表
             var buffer = new byte[this._header.NumberOfSignalsInDataRecord * SIGNAL_LENGTH];
+            Debug.WriteLine("NumberOfSignalsInDataRecord长度"+this._header.NumberOfSignalsInDataRecord);
+            /*
+               新建字节数组 buffer  长度为信号数据记录数*信号长度(256)
+             */
 
-            fs.Read(buffer, 0, buffer.Length);
+            fs.Read(buffer, 0, buffer.Length);//从文件里读出数据
+            string debugStr = $"导联表数据({buffer.Length}):\n";
+            for (var i = 0; i < buffer.Length; i++) {
+               debugStr+=buffer[i]+" ";
+                if (i % 16 == 0) debugStr+="\n";
+
+            }
+            Debug.WriteLine(debugStr);
+
+
 
             // 解析导联列表
             this._header.parseSignals(buffer, encoding);
+
         }
 
         /// <summary>
         /// 解析BIO-NoDisplay格式的数据
         /// </summary>
+        /*
+             笔记 StreamReader  以一种特定的编码输入字符
+         
+             */
         private void parseDataRecordStreamByBIO(StreamReader sr)
         {
             // 先判断是否为NoDisplay格式
@@ -613,13 +645,18 @@ namespace EDF
         private void parseDataRecordStream2(StreamReader sr)
         {
             //set the seek position in the file stream to the beginning of the data records.
+            //设置当前文件流 开始读取的位置 
+            /*sr.BaseStream.Seek(偏移量,开始位置)*/
             sr.BaseStream.Seek((256 + this.Header.NumberOfSignalsInDataRecord * 256), SeekOrigin.Begin);
 
             int dataRecordSize = 0;
+            //遍历头文件信号
             foreach (EDFSignal signal in this.Header.Signals)
             {
+                  //数据采样周期=  采样频率 / 每个记录的样本数
                 signal.SamplePeriodWithinDataRecord = (float)(this.Header.DurationOfDataRecordInSeconds / signal.NumberOfSamplesPerDataRecord);
                 dataRecordSize += signal.NumberOfSamplesPerDataRecord;
+                //数据记录长度+=每条记录样本数
             }
 
             // 移除最后一个注解通道，不滤波和画图（放在此处移除，是为了解析每个数据块和每个通道的字节数正确） - add by lzy 20170502
@@ -645,9 +682,12 @@ namespace EDF
                 int samplesWritten = 0;
                 // 一秒内的全部通道的数据，一维索引为通道数，二维索引为位置
                 List<List<float>> samplesList = new List<List<float>>();
+               
                 foreach (EDFSignal signal in this.Header.Signals)
                 {
-                    float refVoltage = signal.PhysicalMaximum;
+
+
+                    float refVoltage = signal.PhysicalMaximum;//物理信号最大量
 
                     // 一秒内一个通道内的数据
                     List<float> samples = new List<float>();

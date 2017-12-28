@@ -75,7 +75,7 @@ namespace EDF
                 return ((this.PhysicalMaximum / this.AmplifierGain) - this.DigitalMaximum);
             }
         }
-
+       
         public float SamplePeriodWithinDataRecord { get; set; }
         public override string ToString()
         {

@@ -14,6 +14,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using EDF;
+using EEGReplay.model.edf;
 
 namespace EEGReplay
 {
@@ -439,6 +441,82 @@ namespace EEGReplay
             }
         }
 
+
+
+        private void openFile2()
+        {
+            OpenFileDialog openDialog = new OpenFileDialog();
+            openDialog.Filter = "EDF|*.edf;*.edfx;";
+            DialogResult result = openDialog.ShowDialog();
+            Debug.WriteLine(result);
+            if (result == System.Windows.Forms.DialogResult.OK)
+            {
+             
+                try
+                {
+                    // 获取文件路径
+                    var filePath = openDialog.FileName;
+                   
+                    // 取文件名前两段作为识别连续文件的依据
+                    var fileName = Path.GetFileNameWithoutExtension(filePath);
+                    //MessageBox.Show(fileName);
+
+                    {
+                        //切割文件名
+                        var fileNameSplit = fileName.Split(' ', '_');
+                        //MessageBox.Show(fileNameSplit.ToString());
+                        if (fileNameSplit.Length > 2) {
+                            fileName = $"{fileNameSplit[0]}?{fileNameSplit[1]}*.edf?";
+                        } else {
+                            fileName = $"{fileName}.edf?";
+                        }
+                    }
+
+                    // 获取文件列表
+                    ReplayList = Directory.GetFiles(Path.GetDirectoryName(filePath), fileName);
+                    {
+                        // 获取当前文件下标
+                        for (int i = 0; i < ReplayList.Length; i++)
+                        {
+                            if (ReplayList[i].Equals(filePath))
+                            {
+                                ReplayCurrentIndex = i;
+                                break;
+                            }
+                        }
+                       
+                    }
+
+                    // 生成控件
+                    if (ReplayListTips == null)
+                    {
+                        ReplayListTips = new ToolStripLabel();
+                        ReplayListSeparator = new ToolStripSeparator();
+
+                        toolStrip2.Items.Insert(0, ReplayListTips);
+                        toolStrip2.Items.Insert(1, ReplayListSeparator);
+                    }
+
+                    // 控件可见性
+                    ReplayListTips.Visible = ReplayList.Length > 1;
+                    ReplayListSeparator.Visible = ReplayListTips.Visible;
+
+
+                    // 播放文件
+                    //OpenFile(ReplayCurrentIndex);
+
+
+                    MyEDF edfFile = new MyEDF();
+                    edfFile.readFile(filePath);//读取EDF 文件 
+
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
+                }
+            }
+        }
         #region 20171117 文件连续播放
 
         /// <summary>
@@ -3549,6 +3627,21 @@ namespace EEGReplay
         /// 测量提示
         /// </summary>
         private ToolTip MT;
+
+        private void 打开文件测试ToolStripMenuItem_Click(object sender, EventArgs e){
+            //MessageBox.Show("Plese Open File");
+            //this.openFile2(); 
+        }
+
+        private void toolStripMenuItem_Help_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.openFile2();
+        }
 
         /// <summary>
         /// 绘制测量区域

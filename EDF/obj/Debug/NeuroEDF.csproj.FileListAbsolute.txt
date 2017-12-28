@@ -10,3 +10,9 @@ D:\Desktop\EEGReplay\EDF\obj\Debug\NeuroEDF.csproj.CoreCompileInputs.cache
 D:\Desktop\EEGReplay\EDF\obj\Debug\EDF.dll
 D:\Desktop\EEGReplay\EDF\obj\Debug\EDF.pdb
 D:\Desktop\EEGReplay\EDF\obj\Debug\NeuroEDF.csprojResolveAssemblyReference.cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\bin\Debug\EDF.dll
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\bin\Debug\EDF.pdb
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\obj\Debug\NeuroEDF.csprojResolveAssemblyReference.cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\obj\Debug\NeuroEDF.csproj.CoreCompileInputs.cache
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\obj\Debug\EDF.dll
+C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EDF\obj\Debug\EDF.pdb

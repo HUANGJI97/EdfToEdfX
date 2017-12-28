@@ -9,9 +9,9 @@ namespace EDF
     /// </summary>
     public class EDFHeader
     {
-        public static string EDFContinuous = "EDF+C";
-        public static string EDFDiscontinuous = "EDF+D";
-        private static string VERSION_DEFAULT = "0       ";
+        public static string EDFContinuous = "EDF+C"; //连续
+        public static string EDFDiscontinuous = "EDF+D";//间断
+        private static string VERSION_DEFAULT = "0       ";//默认版本
         private bool _isEDFPlus = false;
         public bool IsEDFPlus
         {
@@ -23,7 +23,7 @@ namespace EDF
 
         public EDFHeader()
         {
-            initializeEDFHeader();
+            initializeEDFHeader();//初始化
 
         }
         public EDFHeader(bool isEDFPlus)
@@ -46,19 +46,20 @@ namespace EDF
         }
         */
         #endregion
-
+        //构造函数
         public EDFHeader(byte[] header, Encoding encoding)
         {
+
             if (header.Length != 256)
             {
-                throw new ArgumentException("Header must be 256 characters");
+                throw new ArgumentException("Header must be 256 characters"); //错误警报 文件头长度必须为256位
             }
 
             parseHeader(header, encoding);
         }
 
         #endregion
-
+        //初始化 EDF头
         private void initializeEDFHeader()
         {
             this.Signals = new List<EDFSignal>();
@@ -76,8 +77,8 @@ namespace EDF
             this.NumberOfSignalsInDataRecord = 20;
             this.Reserved = string.Empty;
         }
-        private static int FixedLength_Version = 8;
-        private string _Version = VERSION_DEFAULT;
+        private static int FixedLength_Version = 8; //版本固定长度
+        private string _Version = VERSION_DEFAULT;   //赋值为0
         public string Version
         {
             get
@@ -90,9 +91,9 @@ namespace EDF
             }
         }
 
-        public static int FixedLength_LocalPatientIdentification = 80;
-        private EDFLocalPatientIdentification _PatientInformation;
-        public EDFLocalPatientIdentification PatientIdentification
+        public static int FixedLength_LocalPatientIdentification = 80;  //病人信息长度
+        private EDFLocalPatientIdentification _PatientInformation;     //病人信息
+        public EDFLocalPatientIdentification PatientIdentification     //病人信息set get 方法
         {
             get
             {
@@ -100,17 +101,17 @@ namespace EDF
             }
             set
             {
-                if (value.ToString().Length != FixedLength_LocalPatientIdentification)
+                if (value.ToString().Length != FixedLength_LocalPatientIdentification)//值的长度不等于80
                 {
-                    throw new FormatException("Patient Information must be " + FixedLength_LocalPatientIdentification + " characters fixed length");
+                    throw new FormatException("Patient Information must be " + FixedLength_LocalPatientIdentification + " characters fixed length");//报错
                 }
                 _PatientInformation = value;
             }
         }
 
-        public static int FixedLength_LocalRecordingIdentifiaction = 80;
-        private EDFLocalRecordingIdentification _RecordingInformation;
-        public EDFLocalRecordingIdentification RecordingIdentification
+        public static int FixedLength_LocalRecordingIdentifiaction = 80;//记录信息长度
+        private EDFLocalRecordingIdentification _RecordingInformation;  //记录信息
+        public EDFLocalRecordingIdentification RecordingIdentification   //记录信息 set get方法
         {
             get
             {
@@ -126,17 +127,17 @@ namespace EDF
             }
         }
 
-        public static int FixedLength_StartDateEDF = 8;
+        public static int FixedLength_StartDateEDF = 8; //存放日期长度
         public string StartDateEDF { get; set; } //删掉private
 
-        public static int FixedLength_StartTimeEDF = 8;
+        public static int FixedLength_StartTimeEDF = 8;//存放开始时间长度
         public string StartTimeEDF { get; set; } //删掉private
         public DateTime EndTimeEDF { get; set; } //添加结束时间 zt
 
         //以“年月日”的形式记录日期（xcg）
         public string StartDate { get; set; }
 
-        private DateTime _StartDateTime;
+        private DateTime _StartDateTime;  
         public DateTime StartDateTime
         {
             get { return _StartDateTime; }
@@ -153,9 +154,9 @@ namespace EDF
             }
         }
 
-        public static int FixedLength_NumberOfBytes = 8;
-        private string _NumberOfBytesFixedLengthString = "0";
-        private int _NumberOfBytes = 0;
+        public static int FixedLength_NumberOfBytes = 8; //字节固定长度
+        private string _NumberOfBytesFixedLengthString = "0";//固定长度字节串
+        private int _NumberOfBytes = 0;          //字节数
         public int NumberOfBytes
         {
             get
@@ -167,11 +168,11 @@ namespace EDF
                 _NumberOfBytes = value;
                 _NumberOfBytesFixedLengthString = getFixedLengthString(Convert.ToString(value), FixedLength_NumberOfBytes);
             }
-        }
+        }              //get，set方法
 
-        public static int FixedLength_NumberOfDataRecords = 8;
-        private string _NumberOfDataRecordsFixedLengthString = "0";
-        private int _NumberOfDataRecords = 0;
+        public static int FixedLength_NumberOfDataRecords = 8;   //固定记录数据长度
+        private string _NumberOfDataRecordsFixedLengthString = "0";//固定记录数据
+        private int _NumberOfDataRecords = 0;   //数据记录数
         public int NumberOfDataRecords
         {
             get
@@ -186,6 +187,7 @@ namespace EDF
         }
 
 
+        //每秒读取数据长度
         public static int FixedLength_DuraitonOfDataRecordInSeconds = 8;
         private string _DurationOfDataRecordInSecondsFixedLengthString = "0";
         private double _DurationOfDataRecordInSeconds = 0; //修改int为double
@@ -202,10 +204,11 @@ namespace EDF
             }
         }
 
+        //固定长度字符数据记录的信号量
         public static int FixedLength_NumberOfSignalsInDataRecord = 4;
         private string _NumberOfSignalsInDataRecordFixedLengthString = "0";
         private int _NumberOfSignalsInDataRecord = 0;
-        public int NumberOfSignalsInDataRecord
+        public int NumberOfSignalsInDataRecord    // 信号数据记录数
         {
             get
             {
@@ -218,6 +221,7 @@ namespace EDF
             }
         }
 
+        //保留固定长度
         public static int FixedLength_Reserved = 44;
         private string _Reserved;
         public string Reserved
@@ -405,7 +409,7 @@ namespace EDF
             _strHeader.Append(encoding.GetChars(header));
 
             // 开始解析
-            int _index = 0;
+            int _index = 0; //存放内容长度
 
             // 版本号
             byte[] version = getFixedLengthByteArrayFromHeader(header, _index, EDFHeader.FixedLength_Version);
@@ -565,6 +569,8 @@ namespace EDF
             }
         }
 
+
+        //从头文件获取字节的固定长度
         private byte[] getFixedLengthByteArrayFromHeader(byte[] header, int offset, int count)
         {
             var bytes = new byte[count];
@@ -579,6 +585,13 @@ namespace EDF
         private string getFixedLengthString(string input, int length)
         {
             return (input ?? "").Length > length ? (input ?? "").Substring(0, length) : (input ?? "").PadRight(length);
+            /*
+                ??运算符  合并运算符
+                int  a=null;
+                c=a??100;//c=100
+                如果 input==null 则赋值为""  
+
+             */
         }
         private char[] getFixedLengthCharArrayFromHeader(char[] header, int startPoint, int length)
         {

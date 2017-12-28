@@ -38,8 +38,10 @@
             this.toolStripMenuItem_calibrate = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_Filter = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAdvanced = new System.Windows.Forms.ToolStripMenuItem();
+            this.测量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.功率谱ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.地形图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.打印波形ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_Help = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonOpen = new System.Windows.Forms.ToolStripButton();
@@ -87,8 +89,7 @@
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tsMarkInsert = new System.Windows.Forms.ToolStrip();
-            this.打印波形ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.测量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsMain.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eegSpcMain)).BeginInit();
@@ -108,7 +109,8 @@
             this.toolStripMenuItem_File,
             this.toolStripMenuItem_config,
             this.tsmAdvanced,
-            this.toolStripMenuItem_Help});
+            this.toolStripMenuItem_Help,
+            this.openFileToolStripMenuItem});
             this.mnsMain.Location = new System.Drawing.Point(0, 0);
             this.mnsMain.Name = "mnsMain";
             this.mnsMain.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -128,14 +130,14 @@
             // toolStripMenuItem_Open
             // 
             this.toolStripMenuItem_Open.Name = "toolStripMenuItem_Open";
-            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem_Open.Text = "打开";
             this.toolStripMenuItem_Open.Click += new System.EventHandler(this.toolStripMenuItem_Open_Click);
             // 
             // toolStripMenuItem_Exit
             // 
             this.toolStripMenuItem_Exit.Name = "toolStripMenuItem_Exit";
-            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem_Exit.Text = "退出";
             // 
             // toolStripMenuItem_config
@@ -172,25 +174,40 @@
             this.tsmAdvanced.Size = new System.Drawing.Size(44, 24);
             this.tsmAdvanced.Text = "功能";
             // 
+            // 测量ToolStripMenuItem
+            // 
+            this.测量ToolStripMenuItem.Name = "测量ToolStripMenuItem";
+            this.测量ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.测量ToolStripMenuItem.Text = "测量";
+            this.测量ToolStripMenuItem.Click += new System.EventHandler(this.测量ToolStripMenuItem_Click);
+            // 
             // 功率谱ToolStripMenuItem
             // 
             this.功率谱ToolStripMenuItem.Name = "功率谱ToolStripMenuItem";
-            this.功率谱ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.功率谱ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.功率谱ToolStripMenuItem.Text = "功率谱";
             this.功率谱ToolStripMenuItem.Click += new System.EventHandler(this.功率谱ToolStripMenuItem_Click);
             // 
             // 地形图ToolStripMenuItem
             // 
             this.地形图ToolStripMenuItem.Name = "地形图ToolStripMenuItem";
-            this.地形图ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.地形图ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.地形图ToolStripMenuItem.Text = "地形图";
             this.地形图ToolStripMenuItem.Click += new System.EventHandler(this.地形图ToolStripMenuItem_Click);
+            // 
+            // 打印波形ToolStripMenuItem
+            // 
+            this.打印波形ToolStripMenuItem.Name = "打印波形ToolStripMenuItem";
+            this.打印波形ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.打印波形ToolStripMenuItem.Text = "打印波形";
+            this.打印波形ToolStripMenuItem.Click += new System.EventHandler(this.打印波形ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem_Help
             // 
             this.toolStripMenuItem_Help.Name = "toolStripMenuItem_Help";
             this.toolStripMenuItem_Help.Size = new System.Drawing.Size(44, 24);
             this.toolStripMenuItem_Help.Text = "帮助";
+            this.toolStripMenuItem_Help.Click += new System.EventHandler(this.toolStripMenuItem_Help_Click);
             // 
             // toolStrip1
             // 
@@ -619,19 +636,12 @@
             this.tsMarkInsert.Text = "添加标记";
             this.tsMarkInsert.Visible = false;
             // 
-            // 打印波形ToolStripMenuItem
+            // openFileToolStripMenuItem
             // 
-            this.打印波形ToolStripMenuItem.Name = "打印波形ToolStripMenuItem";
-            this.打印波形ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.打印波形ToolStripMenuItem.Text = "打印波形";
-            this.打印波形ToolStripMenuItem.Click += new System.EventHandler(this.打印波形ToolStripMenuItem_Click);
-            // 
-            // 测量ToolStripMenuItem
-            // 
-            this.测量ToolStripMenuItem.Name = "测量ToolStripMenuItem";
-            this.测量ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.测量ToolStripMenuItem.Text = "测量";
-            this.测量ToolStripMenuItem.Click += new System.EventHandler(this.测量ToolStripMenuItem_Click);
+            this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.openFileToolStripMenuItem.Text = "OpenFile";
+            this.openFileToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -736,6 +746,7 @@
         private System.Windows.Forms.ToolStripMenuItem 地形图ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 打印波形ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 测量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openFileToolStripMenuItem;
     }
 }
 
