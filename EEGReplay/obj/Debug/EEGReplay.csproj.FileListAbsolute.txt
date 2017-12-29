@@ -24,3 +24,36 @@ C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGRe
 C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.CoreCompileInputs.cache
 C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.exe
 C:\Users\neuro\Documents\WeChat Files\lianfangji\Files\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.pdb
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\eloc18.txt
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\eloc19.txt
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\eloc20.txt
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\EEGReplay.exe.config
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\EEGReplay.exe
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\EEGReplay.pdb
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\DiXingTu.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\EDF.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\gonglvpu.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\MWArray.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\testPburgPrj.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\EDF.pdb
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\bin\Debug\ManagedCPPAPI.netmodule
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csprojResolveAssemblyReference.cache
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormMain.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.Properties.Resources.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormCalibrate.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormDixingtu.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormFilterConfig.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormGonglvpu.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.view.FormInput.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormLeadConfig.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormLeadDiagram.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormProgress.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.FormVideo.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.NeuroScrollBar.resources
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.GenerateResource.Cache
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.csproj.CoreCompileInputs.cache
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.exe
+C:\Users\neuro\Documents\C#Project\EEGReplay\EEGReplay\EEGReplay\obj\Debug\EEGReplay.pdb

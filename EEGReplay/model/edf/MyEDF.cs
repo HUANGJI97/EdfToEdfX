@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using EDF;
 
 namespace EEGReplay.model.edf
@@ -76,19 +77,26 @@ namespace EEGReplay.model.edf
 
                     using (StreamReader sr = new StreamReader(fs, encoding))
                     {
+
                         if (this.isEDFXFile()){
+                            Console.WriteLine("以EDFX格式解析");
                             this.parseMyDataRecordStream(sr);
                         }
                         else
                         {
                             try
                             {
+                                 //先以BIO-NODISPALY格式解析 如果异常抛出 则改用下面EDF格式解析
                                 // 20170626 新的EDF解析逻辑（bio）
+                                Console.WriteLine("以BIO-NODISPLAY格式解析");
                                 this.parseDataRecordStreamByBIO(sr);
+
                             }
                             catch
                             {
+                                Console.WriteLine("以EDF格式解析");
                                 this.parseDataRecordStream2(sr);
+
                             }
                             // this.parseDataRecordStream(sr);
                             // this.parseDataRecordStream2(sr);
@@ -99,18 +107,18 @@ namespace EEGReplay.model.edf
         }
 
         /// <summary>
-        /// 解析一个自定义(EDFX)文件
+        /// 解析一个自定义(EDFX)文件EDFX转EDF
         /// </summary>
         /// <param name="sr"></param>
         private void parseMyDataRecordStream(StreamReader sr)
         {
             //set the seek position in the file stream to the beginning of the data records.
-            sr.BaseStream.Seek((256 + this.header.NumberOfSignalsInDataRecord * 256), SeekOrigin.Begin);
+            sr.BaseStream.Seek((256 + this.Header.NumberOfSignalsInDataRecord * 256), SeekOrigin.Begin);
 
             int dataRecordSize = 0;
-            foreach (EDFSignal signal in this.header.Signals)
+            foreach (EDFSignal signal in this.Header.Signals)
             {
-                signal.SamplePeriodWithinDataRecord = (float)(this.header.DurationOfDataRecordInSeconds / signal.NumberOfSamplesPerDataRecord);
+                signal.SamplePeriodWithinDataRecord = (float)(this.Header.DurationOfDataRecordInSeconds / signal.NumberOfSamplesPerDataRecord);
                 dataRecordSize += signal.NumberOfSamplesPerDataRecord;
             }
 
@@ -122,7 +130,7 @@ namespace EEGReplay.model.edf
                 MyEDFDataRecord dataRecord = new MyEDFDataRecord();
                 int j = 0;
                 int samplesWritten = 0;
-                List<EDFSignal> signals = this.header.Signals;
+                List<EDFSignal> signals = this.Header.Signals;
 
                 #region 解析与edf格式相似的方式，以后可能会用到  --by zt
 
@@ -153,7 +161,7 @@ namespace EEGReplay.model.edf
 
                 #endregion 解析与edf格式相似的方式，以后可能会用到  --by zt
 
-                foreach (EDFSignal signal in this.header.Signals)
+                foreach (EDFSignal signal in this.Header.Signals)
                 {
                     //List<float> samples = new List<float>();
                     //for (int l = 0; l < signal.NumberOfSamplesPerDataRecord; l++)
@@ -344,7 +352,7 @@ namespace EEGReplay.model.edf
 
             // 每次读出一秒内的20个通道的数据
             int a = 0;
-            while (   sr.BaseStream.Read(dataRecordBytes, 0, dataRecordSize * 2) > 0)
+            while (sr.BaseStream.Read(dataRecordBytes, 0, dataRecordSize * 2) > 0)
             {
                 a++;
                 //Console.Write($"[{a}]当前基础流位置:{sr.BaseStream.Read(dataRecordBytes, 0, dataRecordSize * 2)}");
@@ -398,7 +406,6 @@ namespace EEGReplay.model.edf
                 for (int i = 0; i < samplingRate; i++)
                 {
                     MyEDFDataRecord myEDFDataRecord = new MyEDFDataRecord();
-                    Console.WriteLine($"样本数组长度[{samplesList.Count}]");
                     for (int j = 0; j < samplesList.Count; j++)
                     {
                         if (i > samplesList[j].Count - 1) continue;
@@ -432,24 +439,80 @@ namespace EEGReplay.model.edf
 
 
             fs.Read(buffer, 0, buffer.Length);
-            String str = "";
+            String str = "头文件输出:\n";
             int i = 0;
-            foreach (byte b in buffer)
-            {
-                i++;
-                str += b.ToString() + "  ";
-                if (i % 16 == 0) str += "\n";
+            //foreach (byte b in buffer)
+            //{
+            //    i++;
+            //    str += b.ToString() + "  ";
+            //    if (i % 16 == 0) str += "\n";
 
+            //}
+            
+            byte[] version = new byte[8];
+            byte[] patientInfo = new byte[80];
+            byte[] recordingInfo = new byte[80];
+            byte[] recordDate = new byte[8];
+            byte[] recordTime = new byte[8];
+            byte[] headerRecordByteLength = new byte[8];
+            byte[] reserved = new byte[44];
+            byte[] dataRecrdNumber = new byte[8];
+            byte[] durationOfDataRecord = new byte[8];
+            byte[] signalNumber = new byte[4];
+            List<byte[]> headerInfos = new List<byte[]>();
+            headerInfos.Add(version);
+            headerInfos.Add(patientInfo);
+            headerInfos.Add(recordingInfo);
+            headerInfos.Add(recordDate);
+            headerInfos.Add(recordTime);
+            headerInfos.Add(headerRecordByteLength);
+            headerInfos.Add(reserved);
+            headerInfos.Add(dataRecrdNumber);
+            headerInfos.Add(durationOfDataRecord);
+            headerInfos.Add(signalNumber);
+
+
+
+            int currentPosition = 0;
+
+            for (int j = 0; j < headerInfos.Count; j++) {
+                headerInfos[j] = buffer.Skip(currentPosition).Take(headerInfos[j].Length).ToArray();
+                currentPosition += headerInfos[j].Length;
             }
-            Debug.WriteLine(str);
 
+
+
+
+
+
+            str += $"数据版本号:[ {Ascii2Str(headerInfos[0]).Trim()} ]\n"+
+                   $"患者信息:[{Ascii2Str(headerInfos[1]).Trim()}]\n"+
+                   $"记录信息:[{Ascii2Str(headerInfos[2]).Trim()}]\n"+
+                   $"记录日期:[{Ascii2Str(headerInfos[3]).Trim()}]\n"+
+                   $"记录时间:[{Ascii2Str(headerInfos[4]).Trim()}]\n"+
+                   $"头记录字节长度:[{Ascii2Str(headerInfos[5]).Trim()}]\n"+
+                   $"保留区:[{Ascii2Str(headerInfos[6]).Trim()}]\n"+
+                   $"数据记录数:[{Ascii2Str(headerInfos[7]).Trim()}]\n"+
+                   $"数据记录周期:[{Ascii2Str(headerInfos[8]).Trim()}]\n"+
+                   $"信道数量:[{Ascii2Str(headerInfos[9]).Trim()}]\n";
+
+
+            //for (int currentPosition = 0; currentPosition <buffer.Length ; currentPosition++) {
+
+
+            //}
+            Debug.WriteLine(str);
+            MessageBox.Show(str);
             // 解析文件头
             this._header = new MyEDFileHeader(buffer, encoding);
 
         }
 
 
-
+        public static string Ascii2Str(byte[] buf)
+        {
+            return System.Text.Encoding.ASCII.GetString(buf);
+        }
 
 
 
@@ -532,24 +595,74 @@ namespace EEGReplay.model.edf
         {
             // 读取导联列表
             var buffer = new byte[this._header.NumberOfSignalsInDataRecord * SIGNAL_LENGTH];
-            Debug.WriteLine("NumberOfSignalsInDataRecord长度" + this._header.NumberOfSignalsInDataRecord);
+            //Debug.WriteLine("NumberOfSignalsInDataRecord长度" + this._header.NumberOfSignalsInDataRecord);
             /*
                新建字节数组 buffer  长度为信号数据记录数*信号长度(256)
              */
 
             fs.Read(buffer, 0, buffer.Length);//从文件里读出数据
-            string debugStr = $"导联表数据({buffer.Length}):\n";
-            for (var i = 0; i < buffer.Length; i++)
-            {
-                debugStr += buffer[i] + " ";
-                if (i % 16 == 0) debugStr += "\n";
+                                              //string debugStr = $"导联表数据({buffer.Length}):\n";
+                                              //for (var i = 0; i < buffer.Length; i++)
+                                              //{
+                                              //    debugStr += buffer[i] + " ";
+                                              //    if (i % 16 == 0) debugStr += "\n";
 
-            }
-            Debug.WriteLine(debugStr);
+            //}
+            //Debug.WriteLine(debugStr);
 
 
 
             // 解析导联列表
+
+            String str = "信道解析:\n";
+            byte[] myLabel = new byte[16];//标签
+            byte[] transducerType = new byte[80];//传感器类型
+            byte[] physicalDimension = new byte[8];//物理量
+            byte[] physicalMinimum = new byte[8];//最小物理量
+            byte[] physicalMaximum = new byte[8];//最大物理量
+            byte[] digitalMinimum = new byte[8];//最小数字量
+            byte[] digitalMaximum = new byte[8];//最大数字量
+            byte[] prefilterings = new byte[80];//滤波
+            byte[] samplesDataRecord = new byte[8];//每条记录的样本
+            byte[] reserved = new byte[32];//保留位
+
+            List<byte[]> signalInfo = new List<byte[]>();
+            signalInfo.Add(myLabel);
+            signalInfo.Add(transducerType);
+            signalInfo.Add(physicalDimension);
+            signalInfo.Add(physicalMinimum);
+            signalInfo.Add(physicalMaximum);
+            signalInfo.Add(digitalMinimum);
+            signalInfo.Add(digitalMaximum);
+            signalInfo.Add(prefilterings);
+            signalInfo.Add(samplesDataRecord);
+            signalInfo.Add(reserved);
+
+
+            int currentPoint = 0;
+            for (int a = 0; a < signalInfo.Count; a++)
+            {
+                signalInfo[a] = buffer.Skip(currentPoint).Take(signalInfo[a].Length).ToArray();
+                currentPoint += signalInfo[a].Length;
+            }
+
+            str += $"标签:[ {Ascii2Str(signalInfo[0]).Trim()} ]\n" +
+                  $"传感器类型:[{Ascii2Str(signalInfo[1]).Trim()}]\n" +
+                  $"物理量:[{Ascii2Str(signalInfo[2]).Trim()}]\n" +
+                  $"最小物理量:[{Ascii2Str(signalInfo[3]).Trim()}]\n" +
+                  $"最大物理量:[{Ascii2Str(signalInfo[4]).Trim()}]\n" +
+                  $"最小数字量:[{Ascii2Str(signalInfo[5]).Trim()}]\n" +
+                  $"最大数字量:[{Ascii2Str(signalInfo[6]).Trim()}]\n" +
+                  $"滤波:[{Ascii2Str(signalInfo[7]).Trim()}]\n" +
+                  $"每条记录的样本:[{Ascii2Str(signalInfo[8]).Trim()}]\n" +
+                  $"保留位:[{Ascii2Str(signalInfo[9]).Trim()}]\n";
+
+
+            MessageBox.Show(str);
+
+
+
+
             this._header.parseSignals(buffer, encoding);
 
         }
@@ -902,21 +1015,34 @@ namespace EEGReplay.model.edf
             public void parseSignals(byte[] signals, Encoding encoding)
             {
                 //将转换后的内容写入缓存
-                //_strHeader.Append(encoding.GetChars(signals));
+                _strHeader.Append(encoding.GetChars(signals));
 
                 // 解析导联列表。
                 this.Signals = new List<EDFSignal>();
                 // TODO 各部分字节数应该写成常量
                 EDFSignal edf_signal;
                 int _index;
-                for (int i = 0; i < this.NumberOfSignalsInDataRecord; i++)
-                {
+
+                //遍历33个信道
+                for (int i = 0; i < this.NumberOfSignalsInDataRecord; i++){
                     edf_signal = new EDFSignal();
 
                     _index = 0;
 
                     // 标签名
                     var _labelLength = 16;
+
+
+
+
+
+
+
+
+
+
+
+
                     byte[] label = getFixedLengthByteArrayFromHeader(signals, (i * _labelLength) + (this.NumberOfSignalsInDataRecord * _index), _labelLength);
                     edf_signal.Label = new string(encoding.GetChars(label)).Trim();
                     _index += _labelLength;
